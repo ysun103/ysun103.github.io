@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Favorite Study Materials</title>
+  <style>
+    /* Global basic styles */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: rgb(2,0,36);
+      background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,44,121,1) 5%, rgba(0,239,255,1) 100%);
+      background-size: cover;
+    }
+
+    header, footer {
+      background-color: #4c9aff; /* Blue background */
+      color: #fff;
+      padding: 1rem 2rem;
+    }
+
+    header h1, footer p {
+      margin: 0;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      background-color: #fff; /* White content background */
+      border-radius: 6px;     /* Rounded corners */
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Light shadow */
+    }
+
+    main section {
+      padding: 1.5rem 2rem;
+      border-bottom: 1px solid #ccc;
+    }
+
+    main section:last-child {
+      border-bottom: none; /* No border for the last section */
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #333;
+    }
+
+    p {
+      color: #555;
+    }
+
+    ul {
+      list-style-type: square; /* Use square list bullets */
+      padding-left: 1.5rem;
+    }
+
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+    }
+
+    /* section image styles */
+    .section-img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Favorite Study Materials</h1>
+  </header>
+
+  <main>
+    <!-- Section 1: Introduction -->
+    <section>
+      <p>
+        My website will feature a curated collection of my favorite links to study materials.
+        I plan to organize them by subject area—such as math, programming, and language learning—
+        and provide a brief explanation for each link, highlighting what it offers and why it’s helpful.
+        This setup will allow visitors to quickly locate and evaluate the resources they need,
+        making it easier to study more effectively.
+      </p>
+    </section>
+
+    <!-- Section 2: Math -->
+    <section>
+      <img class="section-img" src="math.jpg" alt="Math Image">
+      <h2>Math</h2>
+      <ul>
+        <li>
+          <a href="https://www.khanacademy.org/math" target="_blank">Khan Academy</a>
+          – A wide range of free math tutorials and exercises.
+        </li>
+        <li>
+          <a href="https://www.desmos.com/" target="_blank">Desmos</a>
+          – A powerful online graphing calculator for exploring functions and equations.
+        </li>
+      </ul>
+    </section>
+
+    <!-- Section 3: Programming -->
+    <section>
+      <img class="section-img" src="programming.jpg" alt="Programming Image">
+      <h2>Programming</h2>
+      <ul>
+        <li>
+          <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>
+          – Interactive lessons and projects for learning web development.
+        </li>
+        <li>
+          <a href="https://www.w3schools.com/" target="_blank">W3Schools</a>
+          – Tutorials and references for HTML, CSS, JavaScript, and more.
+        </li>
+      </ul>
+    </section>
+
+    <!-- Section 4: Language Learning -->
+    <section>
+      <img class="section-img" src="language.jpg" alt="Language Learning Image">
+      <h2>Language Learning</h2>
+      <ul>
+        <li>
+          <a href="https://www.duolingo.com/" target="_blank">Duolingo</a>
+          – A fun, gamified platform for learning new languages.
+        </li>
+        <li>
+          <a href="https://www.memrise.com/" target="_blank">Memrise</a>
+          – Helps you expand your vocabulary through spaced repetition.
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2023 My Study Links</p>
+  </footer>
+</body>
+</html>
